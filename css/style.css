@@ -1,11 +1,11 @@
-/* Basic Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body and Fonts */
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -13,7 +13,7 @@ body {
   padding: 20px;
 }
 
-/* Header Section */
+
 header {
   display: flex;
   justify-content: space-between;
