@@ -1,72 +1,100 @@
-.navbar {
-    background-color: #333;
-    padding: 1rem;
-    text-align: center;
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.navbar a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
+/* Body and Fonts */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  padding: 20px;
 }
 
-.navbar a:hover {
-    color: #ff6b6b;
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: white;
 }
 
-.header {
-    background-color: #ff6b6b;
-    padding: 20px;
-    text-align: center;
+#logo {
+  background-color: #357abd;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
 }
 
-.header h2 {
-    color: white;
-    font-size: 28px;
-    margin: 0;
+#navbar a {
+  background-color: #357abd;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+#navbar a:hover {
+  background-color: #285d99;
+}
+
+main {
+  margin: 20px 0;
 }
 
 .profile-img {
-    border-radius: 10px;
-    margin: 20px 0;
-    
+  border-radius: 50%;
+  max-width: 300px;
+  display: block;
+  margin: 20px auto;
 }
 
-.profile-img:hover {
-    transform: scale(1.05);
+h2 {
+  text-align: center;
+  color: #333;
 }
 
 .quote {
-    font-size: 20px;
-    font-style: italic;
-    color: #666;
-    margin: 20px 0;
-    border-left: 5px solid #ff6b6b;
-    padding-left: 15px;
+  text-align: center;
+  font-style: italic;
+  margin: 10px auto;
 }
+
+p {
+  text-align: center;
+  margin: 20px 0;
+}
+
 
 .footer {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-
-.footer a {
-    color: #ff6b6b;
-    text-decoration: none;
-}
-
-.footer a:hover {
-    text-decoration: underline;
+  text-align: center;
+  padding: 10px;
+  background-color: #4a90e2;
+  color: white;
 }
 
 .footer div {
-    margin: 5px 0;
+  margin: 5px 0;
+}
+
+.footer a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
 
 
-
-
-
+progress {
+  display: block;
+  margin: 10px auto;
+  width: 70%;
+  height: 25px;
+}
