@@ -37,7 +37,7 @@ header {
 #navbar {
     list-style-type: none;
     display: flex;
-    align-items: right;
+    
 }
 
 #navbar a {
