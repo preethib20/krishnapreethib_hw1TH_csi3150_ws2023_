@@ -28,7 +28,11 @@ header {
     object-fit: cover; 
     display: block;
     margin: 20px auto;
+    transition: transform 0.3s;
 }
+
+.profile-img:hover {
+    transform: scale(1.1);
 
 #navbar {
     list-style-type: none;
