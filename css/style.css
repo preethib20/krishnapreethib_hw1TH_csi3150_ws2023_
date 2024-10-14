@@ -34,20 +34,20 @@ header {
 .profile-img:hover {
     transform: scale(1.1);
 
-.navbar {
+.main-menu {
     list-style-type: none;
     display: flex;
     
 }
 
-.navbar a {
+.main-menu a {
     color: white;
     text-decoration: none;
     font-size: 18px;
     
 }
 
-.navbar a:hover {
+.main-menu a:hover {
     color: #ffca28;
 }
 
