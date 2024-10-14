@@ -24,23 +24,23 @@ header {
 
 .profile-img {
     width: 300px; 
-    border-radius: 50%; 
+    height: 300px; 
+    object-fit: cover; 
     display: block;
-    margin: 20px auto; 
-}
-
+    margin: 20px auto;
 }
 
 #navbar {
     list-style-type: none;
     display: flex;
+    text-align: right;
 }
 
 #navbar a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    transition: color 0.3s ease;
+    
 }
 
 #navbar a:hover {
@@ -51,7 +51,7 @@ header {
 #hero {
     text-align: center;
     padding: 100px 20px;
-    background: linear-gradient(135deg, #ffca28, #f9a825);
+    background: #ffca28;
     color: white;
 }
 
