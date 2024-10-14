@@ -1,100 +1,91 @@
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f4f4f4;
-  padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
 }
 
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #4a90e2;
-  color: white;
-}
-
-#logo {
-  background-color: #357abd;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-weight: bold;
-}
-
-#navbar a {
-  background-color: #357abd;
-  color: white;
-  padding: 10px 15px;
-  border-radius: 5px;
-  text-decoration: none;
-  margin: 0 5px;
-}
-
-#navbar a:hover {
-  background-color: #285d99;
-}
-
-main {
-  margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    color: white;
 }
 
 .profile-img {
-  border-radius: 50%;
-  max-width: 300px;
-  display: block;
-  margin: 20px auto;
+    width: 300px; 
+    border-radius: 50%; 
+    display: block;
+    margin: 20px auto; 
 }
 
-h2 {
-  text-align: center;
-  color: #333;
 }
 
-.quote {
-  text-align: center;
-  font-style: italic;
-  margin: 10px auto;
+#navbar {
+    list-style-type: none;
+    display: flex;
 }
 
-p {
-  text-align: center;
-  margin: 20px 0;
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
 }
+
+#navbar a:hover {
+    color: #ffca28;
+}
+
+
+#hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #ffca28, #f9a825);
+    color: white;
+}
+
+#hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#hero .quote {
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
 
 
 .footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #4a90e2;
-  color: white;
-}
-
-.footer div {
-  margin: 5px 0;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
 }
 
 .footer a {
-  color: #f1f1f1;
-  text-decoration: none;
+    color: #ffca28;
+    text-decoration: none;
 }
 
 .footer a:hover {
-  text-decoration: underline;
-}
-
-
-progress {
-  display: block;
-  margin: 10px auto;
-  width: 70%;
-  height: 25px;
+    text-decoration: underline;
 }
