@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    justify-content: center;
     box-sizing: border-box;
 }
 
@@ -37,11 +38,6 @@ header {
 .main-menu {
     list-style-type: none;
     display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-    
-    
 }
 
 .main-menu a {
