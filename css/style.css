@@ -8,7 +8,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffbff9;
+    background-color: pink;
     color: #fcebfb;
     line-height: 1.6;
 }
@@ -78,9 +78,9 @@ header {
 .footer {
     display: flex;
     text-align: center;
-    padding: 20px;
-    background-color: white;
-    color: #ffbff9;
+    padding-right: 20px;
+    background-color: pink;
+    color: white;
 }
 
 .footer a {
