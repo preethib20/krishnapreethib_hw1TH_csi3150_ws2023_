@@ -8,7 +8,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: pink;
+    background-color: hot pink;
     color: #fcebfb;
     line-height: 1.6;
 }
@@ -40,7 +40,7 @@ header {
 }
 
 .main-menu a {
-    color: #ffbff9;
+    color: pink;
     background-color: white;
     text-decoration: none;
     font-size: 18px;
@@ -48,7 +48,7 @@ header {
 }
 
 .main-menu a:hover {
-    color: #f760e8;
+    color: hotpink;
 }
 
 
@@ -59,7 +59,9 @@ header {
     color: white;
 }
 
-#hero h1 {
+#hero h2 {
+    display: flex;
+    justify-content: center;
     font-size: 40px;
     margin-bottom: 20px;
 }
@@ -84,7 +86,7 @@ header {
 }
 
 .footer a {
-    color: #ffca28;
+    color: red;
     text-decoration: none;
 }
 
