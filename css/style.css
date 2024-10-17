@@ -76,10 +76,11 @@ header {
 }
 
 .footer {
+    display: flex;
     text-align: center;
     padding: 20px;
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: #ffbff9;
 }
 
 .footer a {
