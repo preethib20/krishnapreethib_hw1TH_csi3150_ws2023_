@@ -51,14 +51,23 @@ header {
     color: hotpink;
 }
 
+div{
 
-.hero {
     display: flex;
     text-align: center;
     padding: 100px 20px;
     background: #34ebc9;
     color: white;
+
+
 }
+/* .hero {
+    display: flex;
+    text-align: center;
+    padding: 100px 20px;
+    background: #34ebc9;
+    color: white;
+} */
 
 .hero h2 {
     display: flex;
