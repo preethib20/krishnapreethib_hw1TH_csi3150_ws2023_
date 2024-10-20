@@ -135,3 +135,84 @@ header {
 .footer a:hover {
     text-decoration: underline;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f564e6;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: pink;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #f549e4;
+}
+
+p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f564e6;
+    color: white;
+}
+
+footer a {
+    color: red;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
