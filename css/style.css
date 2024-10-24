@@ -70,6 +70,7 @@ header {
 .main-menu {
     list-style-type: none;
     display: flex;
+    justify-content: center;
 }
 
 .main-menu a {
@@ -93,7 +94,7 @@ header {
     color: white;
 } 
 
- div.hero {
+ .hero {
     justify-content: center;
     font-size: 40px;
     margin-bottom: 20px;
