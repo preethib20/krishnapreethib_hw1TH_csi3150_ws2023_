@@ -132,77 +132,8 @@ header {
 }
 
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: pink;
-    color: white;
-    line-height: 1.6;
-}
 
-header {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    padding: 20px;
-    color: white;
-}
-
-nav {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-}
-
-nav a {
-    color: pink;
-    background-color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav a:hover {
-    color: hotpink;
     
-}
 
-h2, h3 {
-    text-align: center;
-    color: #f549e4;
-}
-
-p {
-    text-align: center;
-    margin: 10px 0;
-}
-
-table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid white;
-}
-
-th, td {
-    padding: 10px;
-    text-align: center;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #f564e6;
-    color: white;
-}
-
-footer a {
-    color: red;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
 
