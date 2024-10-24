@@ -39,7 +39,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 20px;
+    
 }
 
 .cta-btn {
@@ -59,8 +59,8 @@ header {
     width: 300px; 
     height: 300px; 
     object-fit: cover; 
-    display: block;
-    margin: 20px auto;
+    display: flex;
+    justify-content: center;
     transition: transform 0.3s;
 }
 
@@ -131,11 +131,6 @@ header {
     text-decoration: underline;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: Arial, sans-serif;
@@ -146,28 +141,28 @@ body {
 
 header {
     display: flex;
-    justify-content: center;
+    align-items: center;
     background-color: white;
     padding: 20px;
+    color: white;
 }
 
 nav {
+    list-style-type: none;
     display: flex;
     justify-content: center;
-    background-color: #f564e6;
-    padding: 10px;
 }
 
 nav a {
-    margin: 0 15px;
     color: pink;
+    background-color: white;
     text-decoration: none;
     font-size: 18px;
 }
 
 nav a:hover {
     color: hotpink;
-    text-decoration: underline;
+    
 }
 
 h2, h3 {
