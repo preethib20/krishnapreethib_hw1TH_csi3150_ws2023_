@@ -62,7 +62,7 @@ nav a:hover {
 
 
 h2 {
-    color: #hotpink;
+    color: hotpink;
     margin-bottom: 20px;
 }
 
@@ -82,7 +82,7 @@ h2 {
 
 blockquote {
     font-style: italic;
-    color: #f549e4;
+    color: hotpink;
     margin: 20px 0;
 }
 
