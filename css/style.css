@@ -8,7 +8,7 @@ body {
 }
 
 
-header {
+/*header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +75,56 @@ main-btn:hover{
 
 background-color: #0056b3; 
     transform: scale(1.05); 
+} */
+
+
+/* Style the header to align elements */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
 }
+
+/* Align the logo to the left */
+header div img {
+    width: 100px; /* Adjust logo size */
+    height: auto;
+}
+
+/* Center the nav menu */
+nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* Style nav links */
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: pink;
+}
+
+nav a:hover {
+    color: hotpink;
+}
+
+/* Style the "Contact Me" button */
+header > a {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+header > a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
 
 
 .profile-img {
