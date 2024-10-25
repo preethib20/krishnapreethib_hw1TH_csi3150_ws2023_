@@ -1,4 +1,4 @@
-/* General body styling */
+
 body {
     font-family: Arial, sans-serif;
     background-color: pink;
@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 
-/* Header Styling */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -16,14 +16,14 @@ header {
     padding: 20px;
 }
 
-/* Logo Styling */
+
 .logo-img {
     width: 50px; 
     height: 50px; 
     border-radius: 50%; 
 }
 
-/* Contact Link Styling */
+
 main a {
     color: pink;
     background-color: white;
@@ -38,7 +38,7 @@ main a:hover {
     color: hotpink;
 }
 
-/* Navigation Styling */
+
 nav {
     display: flex;
     justify-content: center;
@@ -57,13 +57,13 @@ nav a:hover {
     background-color: #f564e6;
 }
 
-/* Title Styling */
+
 h2 {
     color: #f549e4;
     margin-bottom: 20px;
 }
 
-/* Profile Image Styling */
+
 .profile-img {
     width: 300px;
     height: auto;
@@ -76,21 +76,21 @@ h2 {
     transform: scale(1.1);
 }
 
-/* Blockquote Styling */
+
 blockquote {
     font-style: italic;
     color: #f549e4;
     margin: 20px 0;
 }
 
-/* Progress Bar Styling */
+
 progress {
     width: 80%;
     margin: 10px auto;
     display: block;
 }
 
-/* Footer Styling */
+
 footer {
     background-color: #f564e6;
     padding: 20px;
