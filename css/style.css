@@ -89,8 +89,10 @@ header {
 
 /* Align the logo to the left */
 header div img {
-    width: 20px; /* Adjust logo size */
-    height: auto;
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    justify-content: flex-start;
 }
 
 /* Center the nav menu */
@@ -118,6 +120,7 @@ header > a {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    justify-content:flex-end;
 }
 
 header > a:hover {
