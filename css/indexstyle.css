@@ -39,6 +39,7 @@ main a:hover {
 }
 
 
+
 nav {
     display: flex;
     justify-content: center;
@@ -50,12 +51,14 @@ nav a {
     text-decoration: none;
     padding: 5px 15px;
     font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 nav a:hover {
-    color: hotpink;
-    background-color: #f564e6;
-}
+    background-color: hotpink;
+    color: white;
+    border-radius: 5px; 
+
 
 
 h2 {
