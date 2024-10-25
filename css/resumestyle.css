@@ -17,6 +17,8 @@ nav {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    padding: 10px;
+    background-color: white;
 }
 
 nav a {
@@ -24,11 +26,12 @@ nav a {
     background-color: white;
     text-decoration: none;
     font-size: 18px;
+    margin: 0 15px;
+    padding: 5px;
 }
 
 nav a:hover {
     color: hotpink;
-    
 }
 
 h2, h3 {
