@@ -49,6 +49,23 @@ p {
     margin: 10px 0;
 }
 
+section a {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    color: pink; 
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    width: fit-content; 
+    
+}
+
+section a:hover {
+    color: hotpink; 
+    background-color: #f564e6;
+}
 
 section img {
     display: block;
